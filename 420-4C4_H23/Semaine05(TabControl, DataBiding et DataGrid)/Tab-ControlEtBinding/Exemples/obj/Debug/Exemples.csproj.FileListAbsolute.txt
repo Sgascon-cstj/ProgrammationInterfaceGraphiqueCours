@@ -1,0 +1,32 @@
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\bin\Debug\Exemples.exe.config
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\bin\Debug\Exemples.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\bin\Debug\Exemples.pdb
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.AssemblyReference.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\MainWindow.g.cs
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\App.g.cs
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples_MarkupCompile.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples_MarkupCompile.lref
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\MainWindow.baml
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.g.resources
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.Properties.Resources.resources
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.GenerateResource.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.CoreCompileInputs.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.pdb
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\bin\Debug\Exemples.exe.config
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\bin\Debug\Exemples.exe
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\bin\Debug\Exemples.pdb
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.AssemblyReference.cache
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.SuggestedBindingRedirects.cache
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\MainWindow.g.cs
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\App.g.cs
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples_MarkupCompile.cache
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples_MarkupCompile.lref
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\MainWindow.baml
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.g.resources
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.Properties.Resources.resources
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.GenerateResource.cache
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.csproj.CoreCompileInputs.cache
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.exe
+C:\Users\samue\Desktop\420-4C4_H23\Semaine05\Tab-ControlEtBinding\Exemples\obj\Debug\Exemples.pdb

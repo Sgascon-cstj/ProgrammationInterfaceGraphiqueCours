@@ -1,0 +1,16 @@
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\bin\Debug\ExempleStackPanel.exe.config
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\bin\Debug\ExempleStackPanel.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\bin\Debug\ExempleStackPanel.pdb
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.csproj.AssemblyReference.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\MainWindow.g.cs
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\App.g.cs
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel_MarkupCompile.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel_MarkupCompile.lref
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\MainWindow.baml
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.g.resources
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.Properties.Resources.resources
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.csproj.GenerateResource.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.csproj.CoreCompileInputs.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\03-Panel\Exemple\Panels\ExempleStackPanel\obj\Debug\ExempleStackPanel.pdb

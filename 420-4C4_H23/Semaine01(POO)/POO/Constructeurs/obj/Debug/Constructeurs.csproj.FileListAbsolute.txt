@@ -1,0 +1,8 @@
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\bin\Debug\Constructeurs.exe.config
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\bin\Debug\Constructeurs.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\bin\Debug\Constructeurs.pdb
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\obj\Debug\Constructeurs.csproj.AssemblyReference.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\obj\Debug\Constructeurs.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\obj\Debug\Constructeurs.csproj.CoreCompileInputs.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\obj\Debug\Constructeurs.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Constructeurs\obj\Debug\Constructeurs.pdb

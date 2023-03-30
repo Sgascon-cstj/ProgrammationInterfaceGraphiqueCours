@@ -1,0 +1,47 @@
+﻿<Window x:Class="Ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="300">
+    <StackPanel>
+        <Expander Header="Prenom et noms" Foreground="Green" 
+                  IsExpanded="True" FontStyle="Italic" >
+            <StackPanel>
+                <StackPanel  Margin="3" Orientation="Horizontal">
+                    <Label Content="Prenom" Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Label Content="Nom" Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </Expander>
+        <Separator ></Separator>
+
+        <Expander Header="Adress" Foreground="Green" 
+                  IsExpanded="True" FontStyle="Italic" >
+            <StackPanel>
+                <StackPanel  Margin="3" Orientation="Horizontal">
+                    <Label Content="Rue" Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Label Content="Ville" Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Label Content="Province" Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Label Content="Code Postal" Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+</Window>

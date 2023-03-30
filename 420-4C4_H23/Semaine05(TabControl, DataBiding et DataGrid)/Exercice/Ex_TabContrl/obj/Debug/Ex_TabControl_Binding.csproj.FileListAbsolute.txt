@@ -1,0 +1,48 @@
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.exe.config
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.exe
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.pdb
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.AssemblyReference.cache
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.SuggestedBindingRedirects.cache
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\MainWindow.g.cs
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\App.g.cs
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding_MarkupCompile.cache
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding_MarkupCompile.lref
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\MainWindow.baml
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.g.resources
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.Properties.Resources.resources
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.GenerateResource.cache
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.CoreCompileInputs.cache
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.exe
+C:\Users\2148279\OneDrive - CEGEP de Saint-JEROME\Documents\_Session H23\Évolution des applications\Semaines\S05\Ex_TabContrl\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.pdb
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.AssemblyReference.cache
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\MainWindow.g.cs
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\App.g.cs
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding_MarkupCompile.cache
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding_MarkupCompile.lref
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.exe
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.pdb
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.exe.config
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.exe
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.pdb
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\MainWindow.baml
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.g.resources
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.Properties.Resources.resources
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.GenerateResource.cache
+C:\Users\2151866\Downloads\s05\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.CoreCompileInputs.cache
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.exe.config
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.exe
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\bin\Debug\Ex_TabControl_Binding.pdb
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.AssemblyReference.cache
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.SuggestedBindingRedirects.cache
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\MainWindow.g.cs
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\App.g.cs
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding_MarkupCompile.cache
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding_MarkupCompile.lref
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\MainWindow.baml
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.g.resources
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.Properties.Resources.resources
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.GenerateResource.cache
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.csproj.CoreCompileInputs.cache
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.exe
+C:\Users\samue\Desktop\420-4C4_H23\Exercice\Ex_TabContrl\obj\Debug\Ex_TabControl_Binding.pdb

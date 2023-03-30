@@ -1,0 +1,8 @@
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\bin\Debug\Warcraft.exe.config
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\bin\Debug\Warcraft.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\bin\Debug\Warcraft.pdb
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\obj\Debug\Warcraft.csproj.AssemblyReference.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\obj\Debug\Warcraft.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\obj\Debug\Warcraft.csproj.CoreCompileInputs.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\obj\Debug\Warcraft.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine01\POO\Warcraft\obj\Debug\Warcraft.pdb

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Exemple.ListViewUi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exemple"
+        mc:Ignorable="d"
+        Title="ListViewUi" Height="450" Width="800">
+    <Grid>
+        <ListView Name="myListView">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Matricule" DisplayMemberBinding="{Binding Matricule}"></GridViewColumn>
+                    <GridViewColumn Header="Prenom" DisplayMemberBinding="{Binding Prenom}"></GridViewColumn>
+                    <GridViewColumn Header="Nom" DisplayMemberBinding="{Binding Nom}"></GridViewColumn>
+                    <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Genre}"></GridViewColumn>
+                    <GridViewColumn Header="Niveau" DisplayMemberBinding="{Binding Niveau}"></GridViewColumn>
+                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

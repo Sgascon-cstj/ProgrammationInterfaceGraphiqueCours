@@ -1,0 +1,116 @@
+﻿<Window x:Class="Exemples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exemples"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Icon="images/flocons.png"
+        Name="wnd">
+    <Window.Resources>
+        <Style TargetType="Border" x:Key="bordure">
+            <Setter Property="Background" Value="DarkBlue"></Setter>
+            <Setter Property="BorderBrush" Value="SkyBlue"></Setter>
+            <Setter Property="BorderThickness" Value="2"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <TabControl x:Name="MonTabControl" TabStripPlacement="Top">
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="images/flocons.png" Height="15px" ></Image>
+                        <TextBlock Foreground="Blue">Météo</TextBlock>
+                    </StackPanel>
+                    
+                </TabItem.Header>
+                <Grid>
+                    <Grid.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="White"></Setter>
+                            <Setter Property="FontSize" Value="25"></Setter>
+                            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+                        </Style>
+                    </Grid.Resources>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                        <ColumnDefinition Width="5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="images/snowing.jpg"></ImageBrush>
+                    </Grid.Background>
+                    <!--<Border Grid.Row="0" Grid.Column="0" Background="MediumBlue"
+                            BorderThickness="2" BorderBrush="SkyBlue"></Border>-->
+                    <Image Grid.Column="0" Grid.Row="0" Source="images/flocons.png"/>
+
+                    <!--<Border Grid.Row="0" Grid.Column="1" 
+                            BorderThickness="2" Style="{StaticResource bordure}" ></Border>
+
+                    <Border Grid.Row="1"  Grid.ColumnSpan="2" Style="{StaticResource bordure}" ></Border>--><!--<Border Grid.Row="0" Grid.Column="1" 
+                            BorderThickness="2" Style="{StaticResource bordure}" ></Border>
+
+                    <Border Grid.Row="1"  Grid.ColumnSpan="2" Style="{StaticResource bordure}" ></Border>-->
+
+                    <StackPanel Name="spPrevision" Grid.Row="0" Grid.Column="1" Margin="40 0 0 0" VerticalAlignment="Center">
+                        <StackPanel.Background>
+                            <LinearGradientBrush>
+                                <GradientStop Color="CadetBlue" Offset="0.33"></GradientStop>
+                                <GradientStop Color="Gray" Offset="0.66"></GradientStop>
+                                <GradientStop Color="Plum" Offset="1"></GradientStop>
+                            </LinearGradientBrush>
+                        </StackPanel.Background>
+                        <TextBlock x:Name="horloge" Text="21 février 2023 16:25:07 PM"></TextBlock>
+                        <TextBlock Text="Aujourd'hui -10°c"></TextBlock>
+                        <TextBlock Text="Nuageux avec quelques flocons"></TextBlock>
+                        <TextBlock Text="Prévisions: 80%"></TextBlock>
+                    </StackPanel>
+                    <TextBlock Grid.Row="1" Grid.ColumnSpan="2"
+                               HorizontalAlignment="Center" VerticalAlignment="Center"> Max: -4°C   Min: -12°C Ressentie -15°C </TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Binding">
+                <StackPanel Margin="15">
+                    <WrapPanel Margin="0 10">
+                       <Label Content="Texte saisie"></Label>
+                        <!--<Label Name="lblValue" Content="{Binding ElementName=txtValue, Path=Text}"></Label>-->
+                        <Label Name="lblValue"/>
+                    </WrapPanel>
+                    <TextBox x:Name="txtValue" Width="100" HorizontalAlignment="Left"></TextBox>
+                    <Button Name="btnAccept" Content="Cliquer pour ok" Width="200"/>
+                    <WrapPanel>
+                        <Label Content="Contenue du boutton: "/>
+                        <!--<TextBox Name="txtTextBtn" Width="150" Text="{Binding ElementName=btnAccept, Path=Content}"/>-->
+                        <TextBox Name="txtTextBtn" Width="150"/>
+                    </WrapPanel>
+                    <WrapPanel Margin="10 10 0 0">
+                        <Label Content="Titre de la fenêtre: "></Label>
+                        <TextBox x:Name="txtNameWindow" Width="100" 
+                                 Text="{Binding ElementName=wnd, Path=Title, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                    </WrapPanel>
+                    <WrapPanel Margin="10 10 0 0">
+                        <Label Content="Width: "></Label>
+                        <Slider x:Name="sliderWidth" Width="100" Minimum="400" Maximum="3000"
+                                 Value="{Binding ElementName=wnd, Path=Width}"></Slider>
+                        <Label Content="{Binding ElementName=wnd, Path=Width}"></Label>
+                    </WrapPanel>
+                    <WrapPanel Margin="10 10 0 0">
+                        <Label Content="Heigth: "></Label>
+                        <Slider x:Name="sliderHeight" Width="100" Minimum="400" Maximum="3000"
+                                 Value="{Binding ElementName=wnd, Path=Height}"></Slider>
+                        <Label Content="{Binding ElementName=wnd, Path=Height}"></Label>
+                    </WrapPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Onglet 3">
+                <Label Content="Text onglet 3"></Label>
+            </TabItem>
+        </TabControl>
+    </Grid>
+    
+</Window>

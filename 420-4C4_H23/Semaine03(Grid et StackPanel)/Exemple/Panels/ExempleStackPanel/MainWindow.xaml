@@ -1,0 +1,43 @@
+﻿<Window x:Class="ExempleStackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExempleStackPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="220" Width="350">
+    <StackPanel Background="#ECE9D8">
+        <Expander Header="Recherche et filtre" Foreground="Green" 
+                  IsExpanded="True" FontStyle="Italic" >
+            <StackPanel>
+                <StackPanel  Margin="3" Orientation="Horizontal">
+                    <Label Content="Mot recherché: " Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Label Content="Filtrer par: " Height="25" Width="100"></Label>
+                    <TextBox Height="25" Width="150" BorderBrush="Gray"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </Expander>
+
+        <Separator></Separator>
+            <Button Margin="3">Rechercher</Button>
+        <Separator></Separator>
+
+        <Expander Header="Options de recherche: " Foreground="Green" 
+                  IsExpanded="True" FontFamily="Green">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Content="Respecter la case"></CheckBox>
+                    <CheckBox Margin="54 0 0 0" Content="Mot entier"></CheckBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Content="Recherche dans les titres"></CheckBox>
+                    <CheckBox Margin="14 0 0 0" Content="Ignorer les espaces"></CheckBox>
+                </StackPanel>
+            </StackPanel>
+        </Expander>
+
+    </StackPanel>
+</Window>

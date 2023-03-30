@@ -1,0 +1,16 @@
+C:\Users\2151866\Downloads\s05\Exercice\bin\Debug\Exercice.exe.config
+C:\Users\2151866\Downloads\s05\Exercice\bin\Debug\Exercice.exe
+C:\Users\2151866\Downloads\s05\Exercice\bin\Debug\Exercice.pdb
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.csproj.AssemblyReference.cache
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\MainWindow.g.cs
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\App.g.cs
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice_MarkupCompile.cache
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice_MarkupCompile.lref
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\MainWindow.baml
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.g.resources
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.Properties.Resources.resources
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.csproj.GenerateResource.cache
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.csproj.CoreCompileInputs.cache
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.exe
+C:\Users\2151866\Downloads\s05\Exercice\obj\Debug\Exercice.pdb

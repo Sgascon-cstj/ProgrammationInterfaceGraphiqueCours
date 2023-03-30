@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_CxWjkKPhEe2CZMnlUYdjCw" name="exercice 2">
+  <eAnnotations xmi:id="_CxWjkaPhEe2CZMnlUYdjCw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_CxWjkqPhEe2CZMnlUYdjCw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_CxWjk6PhEe2CZMnlUYdjCw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CxWjlKPhEe2CZMnlUYdjCw" name="Compagnie">
+    <ownedAttribute xmi:id="_CxWjlaPhEe2CZMnlUYdjCw" name="code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CxWjlqPhEe2CZMnlUYdjCw" name="Nom" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CxWjl6PhEe2CZMnlUYdjCw" memberEnd="_CxWjmKPhEe2CZMnlUYdjCw _CxWjmqPhEe2CZMnlUYdjCw">
+    <ownedEnd xmi:id="_CxWjmKPhEe2CZMnlUYdjCw" name="peut avoir" visibility="public" type="_CxWjoqPhEe2CZMnlUYdjCw" association="_CxWjl6PhEe2CZMnlUYdjCw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CxWjmaPhEe2CZMnlUYdjCw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_CxWjmqPhEe2CZMnlUYdjCw" name="peut avoir" visibility="public" type="_CxWjlKPhEe2CZMnlUYdjCw" association="_CxWjl6PhEe2CZMnlUYdjCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CxWjm6PhEe2CZMnlUYdjCw" memberEnd="_CxWjnKPhEe2CZMnlUYdjCw _CxWjn6PhEe2CZMnlUYdjCw">
+    <ownedEnd xmi:id="_CxWjnKPhEe2CZMnlUYdjCw" name="peut avoir" visibility="public" type="_CxWjrqPhEe2CZMnlUYdjCw" association="_CxWjm6PhEe2CZMnlUYdjCw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CxWjnaPhEe2CZMnlUYdjCw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CxWjnqPhEe2CZMnlUYdjCw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_CxWjn6PhEe2CZMnlUYdjCw" name="peut avoir" visibility="public" type="_CxWjlKPhEe2CZMnlUYdjCw" association="_CxWjm6PhEe2CZMnlUYdjCw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CxWjoKPhEe2CZMnlUYdjCw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CxWjoaPhEe2CZMnlUYdjCw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CxWjoqPhEe2CZMnlUYdjCw" name="Vol"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CxWjo6PhEe2CZMnlUYdjCw" memberEnd="_CxWjpKPhEe2CZMnlUYdjCw _CxWjpaPhEe2CZMnlUYdjCw">
+    <ownedEnd xmi:id="_CxWjpKPhEe2CZMnlUYdjCw" name="appartien a" visibility="public" type="_CxWjpqPhEe2CZMnlUYdjCw" association="_CxWjo6PhEe2CZMnlUYdjCw"/>
+    <ownedEnd xmi:id="_CxWjpaPhEe2CZMnlUYdjCw" name="est assuré" visibility="public" type="_CxWjoqPhEe2CZMnlUYdjCw" association="_CxWjo6PhEe2CZMnlUYdjCw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CxWjpqPhEe2CZMnlUYdjCw" name="Avion">
+    <ownedAttribute xmi:id="_CxWjp6PhEe2CZMnlUYdjCw" name="Immitriculation" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CxWjqKPhEe2CZMnlUYdjCw" name="Type" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CxWjqaPhEe2CZMnlUYdjCw" name="capacité" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CxWjqqPhEe2CZMnlUYdjCw" memberEnd="_CxWjq6PhEe2CZMnlUYdjCw _CxWjrKPhEe2CZMnlUYdjCw">
+    <ownedEnd xmi:id="_CxWjq6PhEe2CZMnlUYdjCw" name="peut avoir" visibility="public" type="_CxWjr6PhEe2CZMnlUYdjCw" association="_CxWjqqPhEe2CZMnlUYdjCw"/>
+    <ownedEnd xmi:id="_CxWjrKPhEe2CZMnlUYdjCw" name="peut avoir" visibility="public" type="_CxWjpqPhEe2CZMnlUYdjCw" association="_CxWjqqPhEe2CZMnlUYdjCw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CxWjraPhEe2CZMnlUYdjCw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CxWjrqPhEe2CZMnlUYdjCw" name="Agence de voyage"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CxWjr6PhEe2CZMnlUYdjCw" name="Type">
+    <ownedAttribute xmi:id="_CxWjsKPhEe2CZMnlUYdjCw" name="Code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CxWjsaPhEe2CZMnlUYdjCw" name="Nombre de passagé" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CxWjsqPhEe2CZMnlUYdjCw" name="Désignation commercial" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

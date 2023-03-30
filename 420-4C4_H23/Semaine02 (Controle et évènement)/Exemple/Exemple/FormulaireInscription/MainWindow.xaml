@@ -1,0 +1,104 @@
+﻿<Window x:Class="FormulaireInscription.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormulaireInscription"
+        mc:Ignorable="d"
+        Title="Formulaire d'inscription" Height="730" Width="400">
+    <Grid>
+        <Label VerticalAlignment="Top" Background="Transparent"
+               FontSize="16" Width="192" FontWeight="Bold"
+               Content="Nouveau Participant" Foreground="#FF26008B" 
+               HorizontalAlignment="Center" Margin="93 10 107 0"></Label>
+        <Label Content="Nom" Width="115" HorizontalAlignment="Left"
+               Margin="38,58,0,0" VerticalAlignment="Top"/>
+        <TextBox Loaded="txtNom_Focus"  Height="25" Name="txtNom" HorizontalAlignment="Left" 
+                 Margin="150,58,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"
+                 Width="170"/>
+
+        <Label Content="Prenom" Width="115" HorizontalAlignment="Left"
+               Margin="38,97,0,0" VerticalAlignment="Top"/>
+        <TextBox Height="25" Name="txtPrenom" HorizontalAlignment="Left" 
+                 Margin="150,97,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" 
+                 Width="170" GotFocus="txtPrenom_GotFocus"/>
+
+        <Label Content="Date de naissance" Width="115" HorizontalAlignment="Left" 
+               Margin="38,139,0,0" VerticalAlignment="Top"/>
+        <Calendar Name="cld1" HorizontalAlignment="Left" Margin="150,152,0,0"
+                  VerticalAlignment="Top"/>
+
+        <Label Content="Adresse courriel:" Height="25" Width="115" 
+               HorizontalAlignment="Left" Margin="25,331,0,0" 
+               VerticalAlignment="Top"/>
+        <TextBox LostFocus="txtEmail_LostFocus" MouseDoubleClick="txtEmail_MousseDoubleClick" Name="txtEmail" 
+                  HorizontalAlignment="Left" Margin="169,335,0,0" 
+                 TextWrapping="Wrap" Text="aaaa@gmail.com" VerticalAlignment="Top" 
+                 Width="115" Height="25"/>
+        <Label Content="Région" Height="25" Width="115" 
+               HorizontalAlignment="Left" Margin="25,371,0,0" 
+               VerticalAlignment="Top"/>
+        <ComboBox Name="cboRegion" HorizontalAlignment="Left" Margin="169,373,0,0" 
+                  VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Laurentides" IsSelected="True"></ComboBoxItem>
+            <ComboBoxItem Content="Laval" ></ComboBoxItem>
+            <ComboBoxItem Content="Lanaudière" ></ComboBoxItem>
+            <ComboBoxItem Content="Montréal" ></ComboBoxItem>
+        </ComboBox>
+        <Label Content="Statut professionel" Height="25" Width="115" 
+               HorizontalAlignment="Left" Margin="25,412,0,0" 
+               VerticalAlignment="Top"/>
+        <CheckBox Name="chk1" IsThreeState="True" Content="Étudiant"
+                  HorizontalAlignment="Left" Margin="169,418,0,0"
+                  VerticalAlignment="Top"/>
+        <CheckBox Name="chk2" IsThreeState="True" Content="Salarié" 
+                  HorizontalAlignment="Left" Margin="169,440,0,0"
+                  VerticalAlignment="Top"/>
+        <CheckBox Name="chk3" IsThreeState="True" Content="Recherche de travail" 
+                  HorizontalAlignment="Left" Margin="169,460,0,0" 
+                  VerticalAlignment="Top"/>
+
+
+        <Label Content="État matrimoinial: " Height="25" Width="115" 
+               HorizontalAlignment="Left" Margin="10,479,0,0" 
+               VerticalAlignment="Top"/>
+        <RadioButton GroupName="etat" Name="rdb1" Content="Célibataire" HorizontalAlignment="Left"
+                     Margin="125,485,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="etat" Name="rdb2" Content="Fiancé" HorizontalAlignment="Left"
+                     Margin="213,485,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="etat" Name="rdb3" Content="Marié" HorizontalAlignment="Left" 
+                     Margin="291,485,0,0" VerticalAlignment="Top"/>
+
+
+        <Label Content="Langages de programmation préférés (2 ou +)" Height="30" 
+               Width="300" HorizontalAlignment="Left" Margin="10,509,0,0" 
+               VerticalAlignment="Top"/>
+        <ListBox SelectionMode="Multiple" x:Name="lsbInit" Margin="14,539,250,56" >
+            <ListBoxItem>C#</ListBoxItem>
+            <ListBoxItem>Java</ListBoxItem>
+            <ListBoxItem>Python</ListBoxItem>
+            <ListBoxItem>Ruby</ListBoxItem>
+            <ListBoxItem>Visual basic .NET</ListBoxItem>
+            <ListBoxItem>PHP</ListBoxItem>
+            <ListBoxItem>Kotlin</ListBoxItem>
+            <ListBoxItem>Swift</ListBoxItem>
+            <ListBoxItem>JavaScript</ListBoxItem>
+        </ListBox>
+        <Button Click="BtnCopier_Click" Width="60" Name="btnCopier" Content="Copier >>" 
+                HorizontalAlignment="Left" Margin="180,554,0,0" 
+                VerticalAlignment="Top"/>
+        <Button Click="BtnVider_Click" Width="60" Name="btnVider" Content="Vider &lt;&lt;" 
+                HorizontalAlignment="Left" Margin="180,615,0,0" 
+                VerticalAlignment="Top"/>
+        <ListBox SelectionMode="Multiple" x:Name="lsbFin" Margin="258,539,6,56" >
+
+        </ListBox>
+
+        <Button Click="btnValider_Click" Width="60" Name="btnValider" Content="Valider" 
+                HorizontalAlignment="Left" Margin="103,660,0,0" 
+                VerticalAlignment="Top"/>
+        <Button Click="btnAnnuler_Click" Width="60" Name="btnAnnuler" Content="Annuler" 
+                HorizontalAlignment="Left" Margin="210,660,0,0" 
+                VerticalAlignment="Top"/>
+    </Grid>
+</Window>

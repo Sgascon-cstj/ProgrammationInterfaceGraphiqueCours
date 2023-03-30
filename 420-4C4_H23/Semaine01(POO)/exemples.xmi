@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http:///schemas/default/_8QWOsKGxEe2KbJtv57PJHg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/default/_8QWOsKGxEe2KbJtv57PJHg/0 default.profile.xmi#_8Re3J6GxEe2KbJtv57PJHg">
+  <uml:Model xmi:id="_8QNEwKGxEe2KbJtv57PJHg" name="exemples">
+    <eAnnotations xmi:id="_8QNEwaGxEe2KbJtv57PJHg" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_8QNEwqGxEe2KbJtv57PJHg" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_8QNEw6GxEe2KbJtv57PJHg" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNExKGxEe2KbJtv57PJHg" name="Personne">
+      <ownedAttribute xmi:id="_8QNExaGxEe2KbJtv57PJHg" name="nom" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8QNExqGxEe2KbJtv57PJHg" name="prenom" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8QNEx6GxEe2KbJtv57PJHg" name="Matricule" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_8QNEyKGxEe2KbJtv57PJHg" name="Personne" visibility="public"/>
+      <ownedOperation xmi:id="_8QNEyaGxEe2KbJtv57PJHg" name="Voter" visibility="public">
+        <ownedParameter xmi:id="_8QNEyqGxEe2KbJtv57PJHg" name="numero" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNEy6GxEe2KbJtv57PJHg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNEzKGxEe2KbJtv57PJHg" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8QNEzaGxEe2KbJtv57PJHg" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8QNEzqGxEe2KbJtv57PJHg" name="getNbParticipations" visibility="public">
+        <ownedParameter xmi:id="_8QNEz6GxEe2KbJtv57PJHg" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE0KGxEe2KbJtv57PJHg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE0aGxEe2KbJtv57PJHg" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_8QNE0qGxEe2KbJtv57PJHg" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:AssociationClass" xmi:id="_8QNE06GxEe2KbJtv57PJHg" name="Emploie" memberEnd="_8QNE1qGxEe2KbJtv57PJHg _8QNE2aGxEe2KbJtv57PJHg">
+      <ownedAttribute xmi:id="_8QNE1KGxEe2KbJtv57PJHg" name="dateEmbauche" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8QNE1aGxEe2KbJtv57PJHg" name="Salaire" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+      <ownedEnd xmi:id="_8QNE1qGxEe2KbJtv57PJHg" name="enployeur" visibility="public" type="_8QNFCKGxEe2KbJtv57PJHg" association="_8QNE06GxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE16GxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE2KGxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8QNE2aGxEe2KbJtv57PJHg" name="employer" visibility="public" type="_8QNExKGxEe2KbJtv57PJHg" association="_8QNE06GxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE2qGxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE26GxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE3KGxEe2KbJtv57PJHg" name="Pays"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNE3aGxEe2KbJtv57PJHg" memberEnd="_8QNE3qGxEe2KbJtv57PJHg _8QNE36GxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNE3qGxEe2KbJtv57PJHg" name="appartient" visibility="public" type="_8QNE4aGxEe2KbJtv57PJHg" association="_8QNE3aGxEe2KbJtv57PJHg"/>
+      <ownedEnd xmi:id="_8QNE36GxEe2KbJtv57PJHg" name="Contient" visibility="public" type="_8QNE3KGxEe2KbJtv57PJHg" association="_8QNE3aGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE4KGxEe2KbJtv57PJHg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE4aGxEe2KbJtv57PJHg" name="Ville"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE4qGxEe2KbJtv57PJHg" name="Electeur">
+      <ownedAttribute xmi:id="_8QNE46GxEe2KbJtv57PJHg" visibility="public" type="_8QNE6aGxEe2KbJtv57PJHg" association="_8QNE5qGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE5KGxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE5aGxEe2KbJtv57PJHg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNE5qGxEe2KbJtv57PJHg" name="Voter" memberEnd="_8QNE46GxEe2KbJtv57PJHg _8QNE56GxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNE56GxEe2KbJtv57PJHg" visibility="public" type="_8QNE4qGxEe2KbJtv57PJHg" association="_8QNE5qGxEe2KbJtv57PJHg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE6KGxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE6aGxEe2KbJtv57PJHg" name="Candidat"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE6qGxEe2KbJtv57PJHg" name="Employer">
+      <ownedAttribute xmi:id="_8QNE66GxEe2KbJtv57PJHg" name="est_supervisé" visibility="public" type="_8QNE6qGxEe2KbJtv57PJHg" association="_8QNE-aGxEe2KbJtv57PJHg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE7KGxEe2KbJtv57PJHg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNE7aGxEe2KbJtv57PJHg" memberEnd="_8QNE7qGxEe2KbJtv57PJHg _8QNE8aGxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNE7qGxEe2KbJtv57PJHg" name="fait_travailler" visibility="public" type="_8QNE_aGxEe2KbJtv57PJHg" association="_8QNE7aGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE76GxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE8KGxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8QNE8aGxEe2KbJtv57PJHg" name="est_affecter" visibility="public" type="_8QNE6qGxEe2KbJtv57PJHg" association="_8QNE7aGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE8qGxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE86GxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNE9KGxEe2KbJtv57PJHg" memberEnd="_8QNE9aGxEe2KbJtv57PJHg _8QNE9qGxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNE9aGxEe2KbJtv57PJHg" name="diriger_par" visibility="public" type="_8QNE_aGxEe2KbJtv57PJHg" association="_8QNE9KGxEe2KbJtv57PJHg"/>
+      <ownedEnd xmi:id="_8QNE9qGxEe2KbJtv57PJHg" name="responsable" visibility="public" type="_8QNE6qGxEe2KbJtv57PJHg" association="_8QNE9KGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE96GxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE-KGxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNE-aGxEe2KbJtv57PJHg" memberEnd="_8QNE66GxEe2KbJtv57PJHg _8QNE-qGxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNE-qGxEe2KbJtv57PJHg" name="Supervise" visibility="public" type="_8QNE6qGxEe2KbJtv57PJHg" association="_8QNE-aGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNE-6GxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNE_KGxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE_aGxEe2KbJtv57PJHg" name="Département"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNE_qGxEe2KbJtv57PJHg" name="Enseignant"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNE_6GxEe2KbJtv57PJHg" name="Enseigner" memberEnd="_8QNFAKGxEe2KbJtv57PJHg _8QNFAqGxEe2KbJtv57PJHg _8QNFBKGxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNFAKGxEe2KbJtv57PJHg" visibility="public" type="_8QNE_qGxEe2KbJtv57PJHg" association="_8QNE_6GxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNFAaGxEe2KbJtv57PJHg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8QNFAqGxEe2KbJtv57PJHg" visibility="public" type="_8QNFBqGxEe2KbJtv57PJHg" association="_8QNE_6GxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNFA6GxEe2KbJtv57PJHg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8QNFBKGxEe2KbJtv57PJHg" visibility="public" type="_8QNFB6GxEe2KbJtv57PJHg" association="_8QNE_6GxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNFBaGxEe2KbJtv57PJHg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFBqGxEe2KbJtv57PJHg" name="Cours"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFB6GxEe2KbJtv57PJHg" name="Groupe"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFCKGxEe2KbJtv57PJHg" name="Entreprise"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFCaGxEe2KbJtv57PJHg" name="Polygonne"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNFCqGxEe2KbJtv57PJHg" memberEnd="_8QNFC6GxEe2KbJtv57PJHg _8QNFDqGxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNFC6GxEe2KbJtv57PJHg" name="appartient" visibility="public" type="_8QNFEaGxEe2KbJtv57PJHg" aggregation="shared" association="_8QNFCqGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNFDKGxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNFDaGxEe2KbJtv57PJHg"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8QNFDqGxEe2KbJtv57PJHg" name="est_former" visibility="public" type="_8QNFCaGxEe2KbJtv57PJHg" association="_8QNFCqGxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNFD6GxEe2KbJtv57PJHg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8QNFEKGxEe2KbJtv57PJHg" value="3"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFEaGxEe2KbJtv57PJHg" name="Point"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFEqGxEe2KbJtv57PJHg" name="Livre"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8QNFE6GxEe2KbJtv57PJHg" memberEnd="_8QNFFKGxEe2KbJtv57PJHg _8QNFFaGxEe2KbJtv57PJHg">
+      <ownedEnd xmi:id="_8QNFFKGxEe2KbJtv57PJHg" name="appartient" visibility="public" type="_8QNFF6GxEe2KbJtv57PJHg" aggregation="composite" association="_8QNFE6GxEe2KbJtv57PJHg"/>
+      <ownedEnd xmi:id="_8QNFFaGxEe2KbJtv57PJHg" name="est_formé" visibility="public" type="_8QNFEqGxEe2KbJtv57PJHg" association="_8QNFE6GxEe2KbJtv57PJHg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QNFFqGxEe2KbJtv57PJHg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFF6GxEe2KbJtv57PJHg" name="Chapitre">
+      <ownedComment xmi:id="_8QNFGKGxEe2KbJtv57PJHg">
+        <body></body>
+      </ownedComment>
+      <ownedComment xmi:id="_8QNFGaGxEe2KbJtv57PJHg">
+        <body>Compositions agrégations forte: 1-Relation de composants/composé. 2- le cycle de vie d'une même classe est  le même, la suppresion du composé entrainent la suppression du composant</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFGqGxEe2KbJtv57PJHg" name="Personne">
+      <generalization xmi:id="_8QNFG6GxEe2KbJtv57PJHg" general="_8QNFHKGxEe2KbJtv57PJHg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8QNFHKGxEe2KbJtv57PJHg" name="Étudiant"/>
+    <profileApplication xmi:id="_8R9_UKGxEe2KbJtv57PJHg">
+      <eAnnotations xmi:id="_8R-mYKGxEe2KbJtv57PJHg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="default.profile.xmi#_8Re3J6GxEe2KbJtv57PJHg"/>
+      </eAnnotations>
+      <appliedProfile href="default.profile.xmi#_8Re3IKGxEe2KbJtv57PJHg"/>
+    </profileApplication>
+  </uml:Model>
+  <default:create xmi:id="_8SBpsKGxEe2KbJtv57PJHg" base_Operation="_8QNEyKGxEe2KbJtv57PJHg"/>
+</xmi:XMI>

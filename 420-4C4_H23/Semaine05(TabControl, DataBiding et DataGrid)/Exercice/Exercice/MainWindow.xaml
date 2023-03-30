@@ -1,0 +1,30 @@
+﻿<Window x:Class="Exercice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="575" Width="450">
+    <TabControl>
+        <TabItem Header="Curseur de zoom">
+            <StackPanel>
+
+
+                <TextBlock Margin="10">Entrez la taille dans la zone de texte ou utiliser la glissière</TextBlock>
+                <WrapPanel>
+                    <Label>taille du texte(20 - 70)</Label>
+                    <TextBox Text="{Binding ElementName=Slider, Path=Value}" Width="250" Background="Azure"></TextBox>
+                </WrapPanel>
+                <Slider x:Name="Slider" Margin="10 50 10 10" Width="250" Minimum="20" Maximum="70"></Slider>
+                <Label >Allo</Label>
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Mon paint">
+            <InkCanvas  Margin="40" Background="AliceBlue">
+                
+            </InkCanvas>
+        </TabItem>
+    </TabControl>
+
+</Window>

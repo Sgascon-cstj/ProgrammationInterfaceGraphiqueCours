@@ -1,0 +1,16 @@
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\bin\Debug\Exemple.exe.config
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\bin\Debug\Exemple.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\bin\Debug\Exemple.pdb
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.csproj.AssemblyReference.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.csproj.SuggestedBindingRedirects.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\MainWindow.g.cs
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\App.g.cs
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple_MarkupCompile.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple_MarkupCompile.lref
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\MainWindow.baml
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.g.resources
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.Properties.Resources.resources
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.csproj.GenerateResource.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.csproj.CoreCompileInputs.cache
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.exe
+C:\Users\2151866\OneDrive - CEGEP de Saint-JEROME\420-4C4_H23\Semaine05\Exemples\Exemple\obj\Debug\Exemple.pdb
